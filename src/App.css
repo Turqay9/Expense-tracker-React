@@ -1,0 +1,150 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 40%;
+  margin: 0 auto;
+  background-color:rgb(223, 215, 247)
+  
+}
+
+
+.Historia{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+.lists{
+   display: flex;
+   width: 100%;
+   align-items:center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+li{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0 20px;
+  border: 1px solid rgb(101, 101, 124);
+  border-radius: 5px;
+  background-color:white;
+}
+
+.butdel{
+  display: none;
+  padding:10px ;
+  border: 0px solid black;
+  background-color:rgb(234, 101, 101);
+  color:white;
+}
+
+li:hover .butdel{
+  display: block;
+}
+
+.Balance{
+  width: 100%;
+}
+
+.Balance #bal{
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#inex{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(101, 101, 124);
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color:white;
+}
+
+#fir{
+  color:rgb(88, 88, 246)
+}
+
+#sec{
+  color:rgb(234, 101, 101);
+}
+
+.Transaction{
+  width: 100%;
+}
+
+form{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction:column;
+}
+
+.tr{
+  margin-bottom: 10px;
+}
+
+input{
+  height: 25px;
+  padding-left:10px ;
+}
+
+#subbut{
+  margin: 40px 0;
+  height: 35px;
+  border: 0px solid black;
+  background-color: rgb(88, 88, 246);
+  color:white;
+  border-radius: 5px
+}
+
+
+.parag{
+  margin:0 30px
+}
